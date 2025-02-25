@@ -1,0 +1,26 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "This is a Web Crawler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-warnings main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranish03/WebCrawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranish03/WebCrawler/issues"
+  },
+  "homepage": "https://github.com/Pranish03/WebCrawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^26.0.0"
+  }
+}
