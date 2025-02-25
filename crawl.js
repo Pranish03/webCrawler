@@ -88,4 +88,4 @@ async function crawlPage(baseURL, currentURL, pages) {
   return pages;
 }
 
-module.exports = { normalizeURL, getURLsFromHTML };
+module.exports = { normalizeURL, getURLsFromHTML, crawlPage };
